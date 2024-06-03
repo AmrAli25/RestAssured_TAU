@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e14cfa7-056c-4749-be72-bf60c4ea7ae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/Chapter1Test.java" afterDir="false" />
+    <list default="true" id="9e14cfa7-056c-4749-be72-bf60c4ea7ae0" name="Changes" comment="First chapter examble">
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/Chapter2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +23,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AmrAli25&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AmrAli25/RestAssured_TAU.git&quot;,
+    &quot;accountId&quot;: &quot;8327ed6a-7105-4c77-8f48-8aad8aed188e&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hKMvX3kkwKGXwsmQS7njqw0jA7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,13 +50,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Chapter1Test.requestAZipCode_checkPlaceNameInResponseBody_expectBeverlyHills.executor": "Run",
+    "TestNG.Chapter2Test.checkContentType.executor": "Run",
+    "TestNG.Chapter2Test.checkStatusCodeInResponse.executor": "Run",
+    "TestNG.Chapter2Test.checkThePlaceNameInResponseBody.executor": "Run",
+    "TestNG.Chapter2Test.checkTheStateInResponseBody.executor": "Run",
+    "TestNG.Chapter2Test.logRequestAndResponseBody.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Chapter1Test.requestAZipCode_checkPlaceNameInResponseBody_expectBeverlyHills" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Chapter2Test.checkThePlaceNameSizeInResponseBody">
+    <configuration name="Chapter2Test.checkThePlaceNameInCollectionResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_TAU" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +72,80 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="examples.Chapter1Test" />
-      <option name="METHOD_NAME" value="requestAZipCode_checkPlaceNameInResponseBody_expectBeverlyHills" />
+      <option name="MAIN_CLASS_NAME" value="examples.Chapter2Test" />
+      <option name="METHOD_NAME" value="checkThePlaceNameInCollectionResponseBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter2Test.checkThePlaceNameInResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.Chapter2Test" />
+      <option name="METHOD_NAME" value="checkThePlaceNameInResponseBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter2Test.checkThePlaceNameSizeInResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.Chapter2Test" />
+      <option name="METHOD_NAME" value="checkThePlaceNameSizeInResponseBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter2Test.checkTheStateInResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.Chapter2Test" />
+      <option name="METHOD_NAME" value="checkTheStateInResponseBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter2Test.logRequestAndResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.Chapter2Test" />
+      <option name="METHOD_NAME" value="logRequestAndResponseBody" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,7 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Chapter1Test.requestAZipCode_checkPlaceNameInResponseBody_expectBeverlyHills" />
+        <item itemvalue="TestNG.Chapter2Test.checkThePlaceNameSizeInResponseBody" />
+        <item itemvalue="TestNG.Chapter2Test.checkThePlaceNameInCollectionResponseBody" />
+        <item itemvalue="TestNG.Chapter2Test.checkTheStateInResponseBody" />
+        <item itemvalue="TestNG.Chapter2Test.checkThePlaceNameInResponseBody" />
+        <item itemvalue="TestNG.Chapter2Test.logRequestAndResponseBody" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +172,19 @@
       <option name="presentableId" value="Default" />
       <updated>1717338561567</updated>
     </task>
+    <task id="LOCAL-00001" summary="First chapter examble">
+      <option name="closed" value="true" />
+      <created>1717341141087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717341141087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First chapter examble" />
+    <option name="LAST_COMMIT_MESSAGE" value="First chapter examble" />
   </component>
 </project>
