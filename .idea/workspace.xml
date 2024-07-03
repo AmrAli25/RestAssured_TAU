@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e14cfa7-056c-4749-be72-bf60c4ea7ae0" name="Changes" comment="Third chapter example - Parameterise tests using data providers">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataentities/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataentities/Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/Chapter4Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/examples/Chapter6Test.java" afterDir="false" />
+    <list default="true" id="9e14cfa7-056c-4749-be72-bf60c4ea7ae0" name="Changes" comment="4th, 5th and 6th chapter example - serialization and De-serialization and optimizing the request specs and response specs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/Chapter6Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/Chapter6Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,29 +66,13 @@
     "TestNG.Chapter4Test.checkPlaceNameInResponseBody.executor": "Run",
     "TestNG.Chapter4Test.extractPlaceNameFromResponseBody.executor": "Run",
     "TestNG.Chapter6Test.checkPlaceNameInResponseBody.executor": "Run",
+    "TestNG.Chapter6Test.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Chapter6Test.checkPlaceNameInResponseBody">
-    <configuration name="Chapter3Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_TAU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="examples" />
-      <option name="MAIN_CLASS_NAME" value="examples.Chapter3Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Chapter6Test">
     <configuration name="Chapter3Test.checkTheNameInResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_TAU" />
       <extension name="coverage">
@@ -148,6 +127,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Chapter6Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_TAU" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples" />
+      <option name="MAIN_CLASS_NAME" value="examples.Chapter6Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Chapter6Test.checkPlaceNameInResponseBody" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssured_TAU" />
       <extension name="coverage">
@@ -168,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Chapter6Test" />
         <item itemvalue="TestNG.Chapter6Test.checkPlaceNameInResponseBody" />
         <item itemvalue="TestNG.Chapter4Test.extractPlaceNameFromResponseBody" />
         <item itemvalue="TestNG.Chapter4Test.checkPlaceNameInResponseBody" />
         <item itemvalue="TestNG.Chapter3Test.checkTheNameInResponseBody" />
-        <item itemvalue="TestNG.Chapter3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -209,13 +205,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719827436459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4th, 5th and 6th chapter example - serialization and De-serialization and optimizing the request specs and response specs">
+      <option name="closed" value="true" />
+      <created>1719934374963</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719934374963</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First chapter examble" />
     <MESSAGE value="Second chapter example" />
     <MESSAGE value="Third chapter example - Parameterise tests using data providers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third chapter example - Parameterise tests using data providers" />
+    <MESSAGE value="4th, 5th and 6th chapter example - serialization and De-serialization and optimizing the request specs and response specs" />
+    <option name="LAST_COMMIT_MESSAGE" value="4th, 5th and 6th chapter example - serialization and De-serialization and optimizing the request specs and response specs" />
   </component>
 </project>

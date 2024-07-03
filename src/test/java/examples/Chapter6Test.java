@@ -9,7 +9,7 @@ import static org.testng.Assert.assertEquals;
 public class Chapter6Test {
 
     @Test
-    public void checkPlaceNameInResponseBody(){
+    public void checkPlaceNameInResponseBody() {
         Location location =
                 given().when().get("http://api.zippopotam.us/us/90210").
                         as(Location.class);
